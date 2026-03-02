@@ -49,21 +49,21 @@ The design follows a structured Sense–Think–Act architecture and satisfies a
 
 ## System Architecture
 
-### 1️⃣ Pin Change Interrupt (PCINT0_vect)
+### a) Pin Change Interrupt (PCINT0_vect)
 
 - Monitors D8 and D9
 - Handles PIR motion detection
 - Handles push button press/release
 - Both inputs are part of Port B (D8–D13 group)
 
-### 2️⃣ External Interrupt (INT0)
+### b) External Interrupt (INT0)
 
 - Connected to ultrasonic ECHO pin (D2)
 - Configured in CHANGE mode
 - Measures pulse duration using `micros()`
 - Calculates distance
 
-### 3️⃣ Timer1 Interrupt
+### c) Timer1 Interrupt
 
 - Configured in CTC mode
 - 1024 prescaler
