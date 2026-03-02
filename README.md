@@ -40,10 +40,10 @@ The design follows a structured Sense–Think–Act architecture and satisfies a
 | Push Button            | D9         | Pin Change Interrupt (PCI) |
 | Ultrasonic TRIG        | D3         | Digital Output             |
 | Ultrasonic ECHO        | D2         | External Interrupt (INT0)  |
-| LED – PIR              | D5         | Output                     |
-| LED – Button           | D6         | Output                     |
-| LED – Distance         | D10        | Output                     |
-| Heartbeat LED          | D13        | Timer-based                |
+| Red LED – PIR              | D5         | Output                     |
+| Blue LED – Button           | D6         | Output                     |
+| Green LED – Distance         | D10        | Output                     |
+| Yellow LED- Heartbeat          | D13        | Timer-based                |
 
 ---
 
